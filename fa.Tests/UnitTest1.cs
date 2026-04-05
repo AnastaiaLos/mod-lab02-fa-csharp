@@ -156,16 +156,14 @@ namespace NET
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
         }
-
         [TestMethod]
         public void TestMethod19()
         {
-            String s = "0110";
+            String s = "01010";
             FA3 fa = new FA3();
             bool? result = fa.Run(s);
             Assert.IsTrue(result == false);
         }
-
         [TestMethod]
         public void TestMethod20()
         {
